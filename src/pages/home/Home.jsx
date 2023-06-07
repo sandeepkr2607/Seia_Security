@@ -1,4 +1,5 @@
 import First from "../../components/first/First";
+import Footer from "../../components/footer/Footer";
 import Fourth from "../../components/fourth/Fourth";
 import Header from "../../components/header/Header";
 import Hero from "../../components/hero/Hero";
@@ -14,6 +15,7 @@ const Home = () => {
       <Second />
       <Third />
       <Fourth />
+      <Footer />
     </>
   );
 };

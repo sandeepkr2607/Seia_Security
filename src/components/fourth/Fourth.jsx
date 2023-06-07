@@ -51,6 +51,26 @@ const Fourth = () => {
           <p className={css.name}>LORD KRISHNA</p>
           <p className={css.company}>BHAGAVAD GITA</p>
         </div>
+        <div className={css.box}>
+          <div src="" alt="" className={css.img_box}></div>
+          <p className={css.bottom_para}>
+            “Now I am become Death, the destroyer of worlds.In the dark night of
+            all beings awakes to Light the tranquil man. But what is day to
+            other beings is night for the sage who sees.”
+          </p>
+          <p className={css.name}>LORD KRISHNA</p>
+          <p className={css.company}>BHAGAVAD GITA</p>
+        </div>
+        <div className={css.box}>
+          <div src="" alt="" className={css.img_box}></div>
+          <p className={css.bottom_para}>
+            “Now I am become Death, the destroyer of worlds.In the dark night of
+            all beings awakes to Light the tranquil man. But what is day to
+            other beings is night for the sage who sees.”
+          </p>
+          <p className={css.name}>LORD KRISHNA</p>
+          <p className={css.company}>BHAGAVAD GITA</p>
+        </div>
       </div>
     </div>
   );
