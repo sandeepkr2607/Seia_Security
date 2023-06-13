@@ -1,0 +1,77 @@
+.contact_right {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #3a48cb;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.input_box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fName_input,
+.lName_input,
+.email_input,
+.message_input {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.fName_input,
+.lName_input {
+  height: 40px;
+  width: 45%;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+}
+
+.email_input {
+  height: 40px;
+  width: 96%;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.message_input {
+  height: 200px;
+  width: 96%;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  padding: 0 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.contact_btn {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #3a48cb;
+  color: #f4f4f4;
+  padding: 11px 80px;
+  border: none;
+  margin-top: 20px;
+}

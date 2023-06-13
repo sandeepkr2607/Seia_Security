@@ -20,10 +20,7 @@ const Second = () => {
         <img src={code5} alt="" className={css.code_img5} />
       </div>
       <div className={css.second_middle}>
-        <h2 className={css.middle_heading}>
-          “In the dark night of all beings awakes to Light the tranquil man. But
-          what is day to other beings is night for the sage who sees.”
-        </h2>
+        <h2 className={css.middle_heading}>FIELDS WE COVER</h2>
         <p className={css.middle_para}>
           “My dear Arjuna, how have these impurities come upon you? They are not
           at all befitting a man who knows the value of life. They lead not to
@@ -38,34 +35,25 @@ const Second = () => {
           <div className={css.img_box}>
             <img src={quote_logo} alt="" className={css.quote_img} />
           </div>
-          <p className={css._para}>
-            “Seek refuge in the attitude of detachment and you will amass the
-            wealth of spiritual awareness. The one who is motivated only by the
-            desire for the fruits of their action, and anxious about the
-            results, is miserable indeed.”
-          </p>
+          <p className={css._para}>Financial Services</p>
         </div>
         <div className={css.quote_box}>
           <div className={css.img_box}>
             <img src={quote_logo} alt="" className={css.quote_img} />
           </div>
-          <p className={css._para}>
-            “Seek refuge in the attitude of detachment and you will amass the
-            wealth of spiritual awareness. The one who is motivated only by the
-            desire for the fruits of their action, and anxious about the
-            results, is miserable indeed.”
-          </p>
+          <p className={css._para}>Healthcare</p>
         </div>
         <div className={css.quote_box}>
           <div className={css.img_box}>
             <img src={quote_logo} alt="" className={css.quote_img} />
           </div>
-          <p className={css._para}>
-            “Seek refuge in the attitude of detachment and you will amass the
-            wealth of spiritual awareness. The one who is motivated only by the
-            desire for the fruits of their action, and anxious about the
-            results, is miserable indeed.”
-          </p>
+          <p className={css._para}>Government Facilities</p>
+        </div>
+        <div className={css.quote_box}>
+          <div className={css.img_box}>
+            <img src={quote_logo} alt="" className={css.quote_img} />
+          </div>
+          <p className={css._para}>Retail</p>
         </div>
       </div>
     </div>

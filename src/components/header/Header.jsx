@@ -71,7 +71,7 @@ const Header = () => {
           </NavLink>
           {/* {dropdown && <DropDown />} */}
         </li>
-        <li className={css.nav_list}>
+        {/* <li className={css.nav_list}>
           <NavLink
             to="/extra"
             style={({ isActive }) => ({
@@ -79,7 +79,7 @@ const Header = () => {
             })}>
             PAGES
           </NavLink>
-        </li>
+        </li> */}
         <li className={css.nav_list}>
           <NavLink
             to="/contact-us"

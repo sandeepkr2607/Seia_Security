@@ -1,0 +1,46 @@
+.my_accordion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  gap: 15px;
+}
+
+.my_accordion_question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 25px;
+  color: #3a48cb;
+  padding: 10px;
+}
+
+.question {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}

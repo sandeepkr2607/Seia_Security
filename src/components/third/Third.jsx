@@ -10,9 +10,7 @@ const Third = () => {
   return (
     <div className={css.third}>
       <div className={css.third_top}>
-        <h2 className={css.top_heading}>
-          KARMA KIYEA JAA FAL KI CHINTA MAT KARNA INSAN
-        </h2>
+        <h2 className={css.top_heading}>Clients And Partners</h2>
         <div className={css.top_logos}>
           <img src={logo1} alt="" className={css.top_logo} />
           <img src={logo2} alt="" className={css.top_logo} />
@@ -24,54 +22,30 @@ const Third = () => {
       <div className={css.third_bottom}>
         <div className={css.big_btn}>
           <img src={big_btn} alt="" className={css._big_btn_img} />
-          <p className={css.btn_para}>WHAT WE DO</p>
+          <p className={css.btn_para}>SUPPORT PROVIDED</p>
         </div>
-        <h3 className={css.bottom_heading}>
+        {/* <h3 className={css.bottom_heading}>
           JAISA KARMA KAREGA WAISA FAL DEGA BHAGWAN. YE HAI GEETA KA GYAN.... YE
           HAI GEETA KA GYAN..
-        </h3>
+        </h3> */}
         <div className={css.circles}>
           <div className={css.circle}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>Security Tools.</p>
           </div>
           <div className={css.circle_color}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>24/7 monitoring</p>
           </div>
           <div className={css.circle}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>Increased efficiency</p>
           </div>
           <div className={css.circle_color}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>Enhanced visibility</p>
           </div>
           <div className={css.circle}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>Secure all time</p>
           </div>
           <div className={css.circle_color}>
-            <p className={css.circle_heading}>ARE KAN KHOL KE SUNO PARTH</p>
-            <p className={css.circle_para}>
-              Mai hi treta ka ram hun, krishana mujhe sab kahte hai mai dwapar
-              ka ghanshyam hun.
-            </p>
+            <p className={css.circle_para}>early threat detection</p>
           </div>
         </div>
       </div>

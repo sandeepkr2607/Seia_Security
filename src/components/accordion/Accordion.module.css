@@ -1,0 +1,26 @@
+.Accordions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 70px;
+  gap: 60px;
+}
+
+.accordions_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}

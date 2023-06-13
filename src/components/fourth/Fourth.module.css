@@ -79,6 +79,28 @@
   height: 400px;
 }
 
+.fourth_top2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.tabs {
+  width: 100%;
+  padding: 40px 20px;
+  color: #3a48cb;
+}
+
+.ant-tabs-tab {
+  font-size: 20px !important;
+}
+/* .tab_title {
+  font-size: 25px;
+} */
+
 .fourth_middle {
   display: flex;
   align-items: center;

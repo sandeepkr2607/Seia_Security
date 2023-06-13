@@ -1,5 +1,6 @@
 import css from "./Hero.module.css";
-import hero_png from "../../assets/hero.png";
+import hero1 from "../../assets/hero1.png";
+import hero_img from "../../assets/hero_img.png";
 import big_btn from "../../assets/big_btn.png";
 
 const Hero = () => {
@@ -7,18 +8,20 @@ const Hero = () => {
     <div
       className={css.hero}
       style={{
-        backgroundImage: `url(${hero_png})`,
+        backgroundImage: `url(${hero_img})`,
       }}>
       <h1 className={css.hero_heading}>
-        “Man is made by his belief. As he believes, so he is”
+        Protecting Your Digital World with Comprehensive Cybersecurity Solutions
       </h1>
       <p className={css.hero_para}>
-        “You have a right to perform your prescribed duties, but you are not
-        entitled to the fruits of your actions.”
+        Don't let your business become a victim. Take proactive steps to protect
+        yourself. Sign up for our free risk assessment today and gain peace of
+        mind knowing that you've taken the necessary steps to safeguard your
+        business.
       </p>
       <div className={css.hero_btns}>
-        <button className={css.hero_btn1}>LEARN MORE</button>
-        <button className={css.hero_btn2}>GET STARTED</button>
+        <button className={css.hero_btn1}>CONTACT US</button>
+        <button className={css.hero_btn2}>FREE DEMO</button>
       </div>
       <div className={css.big_btn}>
         <img src={big_btn} alt="" className={css._big_btn_img} />

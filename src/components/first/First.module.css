@@ -17,9 +17,9 @@
 }
 
 .top_heading {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 41px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
   letter-spacing: 0.04em;
   text-align: left;
 }
@@ -27,17 +27,21 @@
 .boxes {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 20px;
   margin-bottom: 100px;
 }
 
 .box {
-  width: 336px;
-  height: 329px;
-  border: 3px solid #3a48cb;
-  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 75px;
+  font-size: 14px;
+  border: 2px solid #3a48cb;
+  border-radius: 5px;
 }
 
 .bottom {
@@ -52,24 +56,24 @@
 }
 
 .bottom_heading {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 41px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
   padding: 30px 50px;
-  max-width: 60%;
+  max-width: 95%;
 }
 
 .bottom_para {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  max-width: 65%;
+  max-width: 95%;
   margin-bottom: 30px;
 }
 
@@ -81,7 +85,7 @@
   color: #ffffff;
   padding: 13px 50px;
   border: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
