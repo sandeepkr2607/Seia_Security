@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #002046;
+  /* background-color: #002046; */
+  background-color: black;
   height: 70px;
   color: #ffffff;
   padding: 0 60px;
@@ -108,7 +109,7 @@
 
 @media screen and (max-width: 600px) {
   .header {
-    background-color: #002046;
+    background-color: #000000;
     height: 55px;
     color: #ffffff;
     padding: 0 20px;
@@ -142,7 +143,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    background-color: #002046;
+    background-color: #000000;
     color: #ffffff;
     position: absolute;
     top: 55px;

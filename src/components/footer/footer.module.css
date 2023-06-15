@@ -30,6 +30,9 @@
   line-height: 37px;
   letter-spacing: 0em;
   text-align: start;
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .para1 {
@@ -86,4 +89,134 @@
   letter-spacing: 0.04em;
   text-align: center;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a48cb;
+    color: #ffffff;
+  }
+
+  .main_footer {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .part1 {
+    flex: 40%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .heading1 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: start;
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 700;
+    /* font-family: "Poppins", sans-serif; */
+  }
+
+  .para1 {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.07em;
+    text-align: left;
+  }
+
+  .img_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .img1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .part2,
+  .part3,
+  .part4 {
+    flex: 20%;
+  }
+
+  .heading2,
+  .heading3,
+  .heading4 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .para2,
+  .para3,
+  .para4 {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main_footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .heading1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: start;
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 700;
+  }
+  .para1 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    max-width: 250px;
+  }
+  .part2 {
+    display: none;
+  }
+  .part3 {
+    display: none;
+  }
+  .part4 {
+    display: none;
+  }
 }

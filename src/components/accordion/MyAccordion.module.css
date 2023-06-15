@@ -3,7 +3,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  max-width: 600px;
+  width: 600px;
   gap: 15px;
 }
 
@@ -15,6 +15,7 @@
   color: #000000;
   border-radius: 7px;
   cursor: pointer;
+  width: 100%;
 }
 
 .plus {
@@ -24,6 +25,7 @@
 }
 
 .question {
+  width: 100%;
   padding: 10px;
   font-size: 17px;
   font-weight: 600;
@@ -43,4 +45,124 @@
   line-height: 23px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .my_accordion {
+    width: 450px;
+  }
+
+  .my_accordion_question {
+    border-radius: 3px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .plus {
+    font-size: 22px;
+    color: #3a48cb;
+    padding: 8px;
+  }
+
+  .question {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .my_accordion {
+    width: 350px;
+  }
+
+  .my_accordion_question {
+    border-radius: 3px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .plus {
+    font-size: 16px;
+    color: #3a48cb;
+    padding: 8px;
+  }
+
+  .question {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .my_accordion {
+    width: 300px;
+  }
+
+  .my_accordion_question {
+    border-radius: 3px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .plus {
+    font-size: 14px;
+    color: #3a48cb;
+    padding: 8px;
+  }
+
+  .question {
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
 }

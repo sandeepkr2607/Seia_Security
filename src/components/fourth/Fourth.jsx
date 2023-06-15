@@ -7,6 +7,9 @@ import "./fourth.css";
 import Accordion from "../accordion/Accordion";
 import Services from "../services/Services";
 import Contact from "../contact/Contact";
+import vishal from "../../assets/vishal.png";
+import suneet from "../../assets/suneet.png";
+import rakesh from "../../assets/rakesh.png";
 
 const Fourth = () => {
   return (
@@ -16,15 +19,17 @@ const Fourth = () => {
         <img src={bottom_dots} alt="" className={css.bottom_dot} />
         <div className={css.top_left}>
           <h2 className={css.top_heading}>
-            “If one offers Me with love and devotion a leaf, a ﬂower, a fruit or
-            water, I will accept it.”
+            seiasecure is a leading data privacy and protection startup
+            dedicated to helping organisations across industries secure their
+            digital assets
           </h2>
           <p className={css.top_para}>
-            “But it is I who am the ritual, I the sacrifice, the offering to the
-            ancestors, the healing herb, the transcendental chant. I am the
-            butter and the fire and the offering.”
+            with a team of highly skilled cybersecurity professionals and a
+            wealth of industry experience, we are commited to providing cutting
+            edge solutions that mitigate risks and ensure your data remains
+            safe.
           </p>
-          <button className={css.top_btn}>GET STARTED</button>
+          <button className={css.top_btn}>QUERY</button>
         </div>
         <div className={css.top_right}>
           <img src={fourth_img} alt="" className={css.fourth_img} />
@@ -51,25 +56,52 @@ const Fourth = () => {
             tab="Data Security Assessments"
             key="tab2"
             className={css.tab_title}>
-            <div className={css.tab_content}>This is tab 2</div>
+            <div className={css.tab_content}>
+              Identifying vulnerability in your IT infrastructure is crucial for
+              maintaining data security. We conduct comprehensive assessment to
+              identify potential risks, include vulnerabilities, gaps in
+              security controls, and weak points in your systems. Our findings
+              enable us to develop a roadmap for enhancing your data security
+              posture.
+            </div>
           </Tabs.TabPane>
           <Tabs.TabPane
             tab="Data Encryption And Tokenization"
             key="tab3"
             className={css.tab_title}>
-            <div className={css.tab_content}>This is tab 3</div>
+            <div className={css.tab_content}>
+              Encryption sensitive data and tokenizing personally identifiable
+              information (PII) are effective measures for protecting data at
+              rest and in transit. We assist you in implementing robust
+              encryption and tokenization techniques to ensure the
+              confidentiality of your valuable information.
+            </div>
           </Tabs.TabPane>
           <Tabs.TabPane
             tab="Incident Response And Recovery"
             key="tab4"
             className={css.tab_title}>
-            <div className={css.tab_content}>This is tab 4</div>
+            <div className={css.tab_content}>
+              In the event of a data breach or security incident, Swift and
+              effective response is vital. Our incident response team is
+              available 24/7 to assist you in containing and mitigating the
+              impact of incident. We provide guidance on minimizing data loss,
+              restoring system, and implementing measures to prevent future
+              occurences.
+            </div>
           </Tabs.TabPane>
           <Tabs.TabPane
             tab="Employee Training and Awareness"
             key="tab5"
             className={css.tab_title}>
-            <div className={css.tab_content}>This is tab 5</div>
+            <div className={css.tab_content}>
+              Your employees play a crucial role in maintaining data privacy and
+              protection. We offer customized training programs to educate your
+              staff about best practices, emerging threats, and their
+              responsibilities in safeguarding sensitive data. By raising
+              awareness and providing practical guidance, we empower your
+              employees to become your strongest defence against cyber threats
+            </div>
           </Tabs.TabPane>
         </Tabs>
       </div>
@@ -92,34 +124,25 @@ const Fourth = () => {
       </div>
       <div className={css.fourth_bottom}>
         <div className={css.box}>
-          <div src="" alt="" className={css.img_box}></div>
-          <p className={css.bottom_para}>
-            “Now I am become Death, the destroyer of worlds.In the dark night of
-            all beings awakes to Light the tranquil man. But what is day to
-            other beings is night for the sage who sees.”
-          </p>
-          <p className={css.name}>LORD KRISHNA</p>
-          <p className={css.company}>BHAGAVAD GITA</p>
+          <img src={rakesh} alt="" className={css.img_box} />
+
+          <p className={css.name}>Rakesh Sekhar Arigala</p>
+          <p className={css.post}>Co-Founder</p>
+          <p className={css.email}>rakesh@seiasecure.com</p>
         </div>
         <div className={css.box}>
-          <div src="" alt="" className={css.img_box}></div>
-          <p className={css.bottom_para}>
-            “Now I am become Death, the destroyer of worlds.In the dark night of
-            all beings awakes to Light the tranquil man. But what is day to
-            other beings is night for the sage who sees.”
-          </p>
-          <p className={css.name}>LORD KRISHNA</p>
-          <p className={css.company}>BHAGAVAD GITA</p>
+          <img src={suneet} alt="" className={css.img_box} />
+
+          <p className={css.name}>sunit tiwari</p>
+          <p className={css.post}>Co-Founder</p>
+          <p className={css.email}>sunit@seiasecure.com</p>
         </div>
         <div className={css.box}>
-          <div src="" alt="" className={css.img_box}></div>
-          <p className={css.bottom_para}>
-            “Now I am become Death, the destroyer of worlds.In the dark night of
-            all beings awakes to Light the tranquil man. But what is day to
-            other beings is night for the sage who sees.”
-          </p>
-          <p className={css.name}>LORD KRISHNA</p>
-          <p className={css.company}>BHAGAVAD GITA</p>
+          <img src={vishal} alt="" className={css.img_box} />
+
+          <p className={css.name}>vishal</p>
+          <p className={css.post}>Co-Founder</p>
+          <p className={css.email}>vishal@seiasecure.com</p>
         </div>
       </div>
       <Contact />

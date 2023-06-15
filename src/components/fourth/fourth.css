@@ -1,8 +1,16 @@
 .ant-tabs-tab {
-  font-size: 17px !important;
+  font-size: 15px !important;
   margin: 8px 0 0 0 !important;
 }
 
 .ant-tabs-ink-bar {
   width: 4px !important;
+}
+
+.ant-tabs-nav {
+  width: 288px !important;
+}
+
+.ant-tabs-content {
+  font-size: 13px !important;
 }

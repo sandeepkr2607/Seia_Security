@@ -5,6 +5,8 @@
   justify-content: center;
   padding: 50px 100px;
   background-size: cover;
+  /* background-image: url("./../../assets/hero.png"); */
+  background-color: black;
   height: 450px;
   position: relative;
 }
@@ -100,13 +102,13 @@
     font-size: 30px;
     font-weight: 600;
     line-height: 45px;
-    margin-top: 40px;
-    max-width: 600px;
+    margin-top: 0;
+    max-width: 800px;
   }
 
   .hero_para {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.02em;
     text-align: center;
@@ -157,18 +159,18 @@
   }
 
   .hero_heading {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 45px;
+    line-height: 40px;
     margin-top: 0;
     max-width: 600px;
     margin-bottom: 10px;
   }
 
   .hero_para {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23px;
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 600px;
@@ -225,9 +227,9 @@
   }
 
   .hero_heading {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 24px;
     letter-spacing: 0.04em;
     text-align: center;
     color: #f4f4f4;
@@ -238,9 +240,9 @@
   }
 
   .hero_para {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 300px;
@@ -251,30 +253,30 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-top: 20px;
+    margin-top: 12px;
   }
 
   .hero_btn1 {
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 300;
     line-height: 14px;
     letter-spacing: 0em;
     color: #3a48cb;
     background-color: #f4f4f4;
-    padding: 9px 20px;
+    padding: 7px 20px;
     cursor: pointer;
     border: none;
   }
 
   .hero_btn2 {
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 300;
     line-height: 14px;
     letter-spacing: 0em;
     color: #f4f4f4;
     border: 2px solid #f4f4f4;
     background-color: #3a48cb;
-    padding: 10px 17px;
+    padding: 8px 17px;
     border: none;
     cursor: pointer;
   }
@@ -284,7 +286,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 0;
+    left: -116px;
     bottom: -10px;
     width: 100%;
   }

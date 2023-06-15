@@ -24,3 +24,62 @@
   letter-spacing: 0.04em;
   text-align: left;
 }
+
+@media screen and (max-width: 900px) {
+  .Accordions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 30px;
+  }
+
+  .accordions_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: capitalize;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Accordions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 20px;
+  }
+
+  .accordions_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+
+  .heading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: capitalize;
+  }
+}
