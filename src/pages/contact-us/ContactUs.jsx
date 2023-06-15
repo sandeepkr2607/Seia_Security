@@ -13,8 +13,8 @@ const ContactUs = () => {
           height: "500px",
         }}>
         Contact Us Coming Soon...
-        <Footer />
       </h1>
+      <Footer />
     </>
   );
 };
