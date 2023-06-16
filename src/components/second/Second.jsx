@@ -22,11 +22,11 @@ const Second = () => {
       <div className={css.second_middle}>
         <h2 className={css.middle_heading}>FIELDS WE COVER</h2>
         <p className={css.middle_para}>
-          “My dear Arjuna, how have these impurities come upon you? They are not
-          at all befitting a man who knows the value of life. They lead not to
-          higher planets, but to infamy. O son of Prtha, do not yield to this
-          degrading impotence, that it does not become you. Give up such petty
-          weakness of heart and arise, O chastiser of the enemy.”
+          A reputable supplier of complete cybersecurity, blockchain, and IT
+          solutions, seiaSecure IT Solutions assists companies in safeguarding
+          their digital assets, utilising the advantages of blockchain
+          technology, and streamlining their IT infrastructure for long-term
+          success and growth.
         </p>
         <div className={css.line}></div>
       </div>

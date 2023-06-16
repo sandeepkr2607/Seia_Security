@@ -21,10 +21,11 @@ const Footer = () => {
         </div>
         <div className={css.part2}>
           <p className={css.heading2}>SERVICES</p>
-          <p className={css.para2}>Jai Shree Ram</p>
-          <p className={css.para2}>Jai Shree Ram</p>
-          <p className={css.para2}>Jai Shree Ram</p>
-          <p className={css.para2}>Jai Shree Ram</p>
+          <p className={css.para2}>real-time threat monitoring</p>
+          <p className={css.para2}>proactive threat detection</p>
+          <p className={css.para2}>blockchain security</p>
+          <p className={css.para2}>expert security analysis</p>
+          <p className={css.para2}>data privacy</p>
         </div>
         <div className={css.part3}>
           <p className={css.heading3}>SUPPORT</p>
@@ -43,7 +44,9 @@ const Footer = () => {
           <p className={css.para4}>Mobile No.</p>
         </div>
       </div>
-      <p className={css.copyright}>Ant Bhala To Sab Bhala @ Mahakaal</p>
+      <p className={css.copyright}>
+        All Rights Reserved. © Copyright 2023. SeiaSecure IT Solutions
+      </p>
     </div>
   );
 };

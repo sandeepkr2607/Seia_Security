@@ -108,17 +108,12 @@ const Fourth = () => {
       <Accordion />
       <Services />
       <div className={css.fourth_middle}>
-        <h3 className={css.middle_heading}>
-          “The spirit is beyond destruction. No one can bring an end to spirit
-          which is everlasting.
-        </h3>
+        <h3 className={css.middle_heading}>MEET OUR LEADERS</h3>
         <p className={css.middle_para}>
-          “When a man dwells on the pleasure of sense, attraction for them
-          arises in him. From attraction arises desire, the lust of possession,
-          and this leads to passion, to anger. From passion comes confusion of
-          mind, then loss of remembrance, the forgetting of duty. From this loss
-          comes the ruin of reason, and the ruin of reason leads man to
-          destruction.”
+          Our executive team is made up of competent individuals with a plethora
+          of knowledge and experience in IT, blockchain, and cybersecurity. They
+          inspire innovation, lead our company with visionary insight, and put
+          our customers' success and satisfaction first.
         </p>
         <div className={css.middle_line}></div>
       </div>
