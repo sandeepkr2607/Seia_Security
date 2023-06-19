@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <div
       className={css.hero}
+      id="/"
       // style={{
       //   backgroundImage: `url(${hero1})`,
       // }}

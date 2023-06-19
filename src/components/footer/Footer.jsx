@@ -5,7 +5,7 @@ import twitter from "../../assets/twitter.png";
 
 const Footer = () => {
   return (
-    <div className={css.footer}>
+    <div className={css.footer} id="contact-us">
       <div className={css.main_footer}>
         <div className={css.part1}>
           <h3 className={css.heading1}>seia secure iT solutions</h3>

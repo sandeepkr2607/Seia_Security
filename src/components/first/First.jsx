@@ -3,7 +3,7 @@ import first_bottom from "../../assets/first_bottom.png";
 
 const First = () => {
   return (
-    <div className={css.first}>
+    <div className={css.first} id="about-us">
       <div className={css.top}>
         <h2 className={css.top_heading}>
           At SeiaSecure IT Solutions, we are committed to delivering exceptional

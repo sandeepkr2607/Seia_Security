@@ -4,7 +4,7 @@ import MyAccordion from "./MyAccordion";
 
 const Accordion = () => {
   return (
-    <div style={{ color: "white" }} className={css.Accordions}>
+    <div style={{ color: "white" }} className={css.Accordions} id="services">
       <h2 className={css.heading}>Our CEH-Aligned Services</h2>
       <div className={css.accordions_list}>
         {data.map((elem) => {

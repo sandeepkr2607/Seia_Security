@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import css from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
@@ -34,27 +35,43 @@ const Header = () => {
   // };
   return (
     <div className={css.header}>
-      <div className={css.logo_box}>
-        <img src={logo} alt="" className={css.logo} />
-      </div>
+      <Link
+        to="/"
+        className={css.logo_box}
+        style={{ textDecoration: "none", color: "#ffffff" }}>
+        {/* <img src={logo} alt="" className={css.logo} /> */}
+        <h3 className={css.logo}>Seia Secure® </h3>
+      </Link>
       <div className={click ? css.mbl_nav_container : css.nav_container}>
         <li className={css.nav_list}>
-          <NavLink
+          <Link
             to="/"
-            style={({ isActive }) => ({
-              borderBottom: isActive ? "2px solid #ffffff" : "",
-            })}>
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            // style={({ isActive }) => ({
+            //   borderBottom: isActive ? "2px solid #ffffff" : "",
+            // })}
+          >
             HOME
-          </NavLink>
+          </Link>
         </li>
         <li className={css.nav_list}>
-          <NavLink
-            to="/about-us"
-            style={({ isActive }) => ({
-              borderBottom: isActive ? "2px solid #ffffff" : "",
-            })}>
+          <Link
+            to="about-us"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            // style={({ isActive }) => ({
+            //   borderBottom: isActive ? "2px solid #ffffff" : "",
+            // })}
+          >
             ABOUT-US
-          </NavLink>
+          </Link>
         </li>
         <li
           className={css.nav_list}
@@ -62,13 +79,19 @@ const Header = () => {
           // onMouseLeave={onMouseLeave}
           // onClick={openDropdown}
         >
-          <NavLink
-            to="/services"
-            style={({ isActive }) => ({
-              borderBottom: isActive ? "2px solid #ffffff" : "",
-            })}>
+          <Link
+            to="services"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-130}
+            duration={500}
+            // style={({ isActive }) => ({
+            //   borderBottom: isActive ? "2px solid #ffffff" : "",
+            // })}
+          >
             SERVICES
-          </NavLink>
+          </Link>
           {/* {dropdown && <DropDown />} */}
         </li>
         {/* <li className={css.nav_list}>
@@ -81,13 +104,19 @@ const Header = () => {
           </NavLink>
         </li> */}
         <li className={css.nav_list}>
-          <NavLink
-            to="/contact-us"
-            style={({ isActive }) => ({
-              borderBottom: isActive ? "2px solid #ffffff" : "",
-            })}>
+          <Link
+            to="contact-us"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            // style={({ isActive }) => ({
+            //   borderBottom: isActive ? "2px solid #ffffff" : "",
+            // })}
+          >
             CONTACT-US
-          </NavLink>
+          </Link>
         </li>
       </div>
       <div className={css.header_mbl} onClick={handleClick}>
