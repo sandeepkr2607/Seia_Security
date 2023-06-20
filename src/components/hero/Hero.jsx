@@ -8,10 +8,9 @@ const Hero = () => {
     <div
       className={css.hero}
       id="/"
-      // style={{
-      //   backgroundImage: `url(${hero1})`,
-      // }}
-    >
+      style={{
+        backgroundImage: `url(${hero1})`,
+      }}>
       <h1 className={css.hero_heading}>
         Protecting Your Digital World with Comprehensive Cybersecurity Solutions
       </h1>
