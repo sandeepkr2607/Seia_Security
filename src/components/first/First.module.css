@@ -42,6 +42,7 @@
   font-size: 14px;
   border: 2px solid #3a48cb;
   border-radius: 5px;
+  text-transform: capitalize;
 }
 
 .bottom {

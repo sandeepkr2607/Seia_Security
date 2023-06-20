@@ -40,7 +40,7 @@ const Header = () => {
         className={css.logo_box}
         style={{ textDecoration: "none", color: "#ffffff" }}>
         {/* <img src={logo} alt="" className={css.logo} /> */}
-        <h3 className={css.logo}>Seia Secure® </h3>
+        <h3 className={css.logo}>SeiaSecure® </h3>
       </Link>
       <div className={click ? css.mbl_nav_container : css.nav_container}>
         <li className={css.nav_list}>

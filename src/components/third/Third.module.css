@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
   width: 100%;
   gap: 40px;
   flex-wrap: wrap;
@@ -40,6 +41,9 @@
 
 .top_logo {
   width: 200px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
   height: 60px;
 }
 

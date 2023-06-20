@@ -10,13 +10,33 @@ const Third = () => {
   return (
     <div className={css.third}>
       <div className={css.third_top}>
-        <h2 className={css.top_heading}>Clients And Partners</h2>
+        <h2 className={css.top_heading}>Our Clients</h2>
         <div className={css.top_logos}>
-          <img src={logo1} alt="" className={css.top_logo} />
-          <img src={logo2} alt="" className={css.top_logo} />
-          <img src={logo3} alt="" className={css.top_logo} />
-          <img src={logo4} alt="" className={css.top_logo} />
-          <img src={logo5} alt="" className={css.top_logo} />
+          <img
+            src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara6.png"
+            alt=""
+            className={css.top_logo}
+          />
+          <img
+            src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara7.png"
+            alt=""
+            className={css.top_logo}
+          />
+          <img
+            src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara8.png"
+            alt=""
+            className={css.top_logo}
+          />
+          <img
+            src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara4.png"
+            alt=""
+            className={css.top_logo}
+          />
+          <img
+            src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara1.png"
+            alt=""
+            className={css.top_logo}
+          />
         </div>
       </div>
       <div className={css.third_bottom}>

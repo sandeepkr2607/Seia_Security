@@ -60,6 +60,8 @@
 .part3,
 .part4 {
   flex: 20%;
+  flex-direction: column;
+  display: flex;
 }
 
 .heading2,
@@ -81,6 +83,11 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: capitalize;
+}
+
+.para2 {
+  cursor: pointer;
 }
 
 .copyright {
