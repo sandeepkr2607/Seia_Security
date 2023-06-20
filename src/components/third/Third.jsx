@@ -50,7 +50,7 @@ const Third = () => {
                 alt=""
               />
             </div>
-            <div className={css.slide}>
+            {/* <div className={css.slide}>
               <img
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara2.png"
                 alt=""
@@ -61,7 +61,7 @@ const Third = () => {
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara3.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className={css.slide}>
               <img
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara4.png"
@@ -98,7 +98,7 @@ const Third = () => {
                 alt=""
               />
             </div>
-            <div className={css.slide}>
+            {/* <div className={css.slide}>
               <img
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara2.png"
                 alt=""
@@ -109,7 +109,7 @@ const Third = () => {
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara3.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className={css.slide}>
               <img
                 src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara4.png"
