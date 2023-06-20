@@ -9,7 +9,7 @@ import big_btn from "../../assets/big_btn.png";
 const Third = () => {
   return (
     <div className={css.third}>
-      <div className={css.third_top}>
+      {/* <div className={css.third_top}>
         <h2 className={css.top_heading}>Our Clients</h2>
         <div className={css.top_logos}>
           <img
@@ -37,6 +37,107 @@ const Third = () => {
             alt=""
             className={css.top_logo}
           />
+        </div>
+      </div> */}
+      <div className={css.our_clients}>
+        <h2 className={css.heading}>OUR CLIENTS</h2>
+        <div className={css.slider}>
+          <div className={css.slider_track}>
+            {/* first */}
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara1.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara2.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara3.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara4.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara5.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara6.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara7.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img src="https://dcred.io/assets/img/dcredLogo.svg" alt="" />
+            </div>
+
+            {/* secons */}
+
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara1.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara2.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara3.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara4.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara5.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara6.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img
+                src="https://nixonbit-public.s3.ap-south-1.amazonaws.com/assets/cara7.png"
+                alt=""
+              />
+            </div>
+            <div className={css.slide}>
+              <img src="https://dcred.io/assets/img/dcredLogo.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className={css.third_bottom}>
