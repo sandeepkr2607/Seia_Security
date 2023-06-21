@@ -118,13 +118,13 @@ const Fourth = () => {
         <div className={css.middle_line}></div>
       </div>
       <div className={css.fourth_bottom}>
-        <div className={css.box}>
+        {/* <div className={css.box}>
           <img src={rakesh} alt="" className={css.img_box} />
 
           <p className={css.name}>Rakesh Sekhar Arigala</p>
           <p className={css.post}>Co-Founder</p>
           <p className={css.email}>rakesh@seiasecure.com</p>
-        </div>
+        </div> */}
         <div className={css.box}>
           <img src={suneet} alt="" className={css.img_box} />
 
