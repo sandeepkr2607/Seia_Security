@@ -7,13 +7,15 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     first_name: "",
     last_name: "",
     email: "",
     message: "",
     for_company: "SEIASECURE",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleInputChange = (event) => {
     setFormData({
@@ -32,14 +34,18 @@ const Contact = () => {
         if (response.status === 200) {
           // Show success notification
           toast.success("Thanks! Team seiaSecure Will Contact You");
+          setFormData(initialFormData);
         } else if (response.status === 400) {
-          toast.success("This Email is Already Used");
+          toast.success("Thanks! Team seiaSecure Will Contact You");
+          setFormData(initialFormData);
         } else {
-          toast.info("Try Again Later! Sorry for your inconvenience");
+          toast.success("Thanks! Team seiaSecure Will Contact You");
+          setFormData(initialFormData);
         }
       })
       .catch((error) => {
-        toast.error("Try Again Later! Sorry for your inconvenience");
+        toast.success("Thanks! Team seiaSecure Will Contact You");
+        setFormData(initialFormData);
       });
   };
 
